@@ -1,0 +1,2 @@
+# SOBI
+A machine learning based tool for analysing a piece of text against a corpus of similar works, that reports on what makes it distinctive. Allows an individual to then make changes to their writing style to make it less distinctive.
