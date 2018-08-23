@@ -1,0 +1,40 @@
+18 accounts being scraped...
+1367 tweets being analysed...
+Error parsing JSON
+Most distinctive: @DominicRaab with mean score of 65.47906067020797
+Great to meet our energetic new Elmbridge Inspector, Dallas McDermott. He updated me on the enforcement action in W… https://t.co/dVNzQCzNbU
+UK second in Carrington Crisp global survey of places where business students want to study - and closing the gap o… https://t.co/R9nZLqogKI
+For those concerned about noise levels and/ or air quality, please have your say ... https://t.co/xfNEcYuRzq
+Most varying: @AlunCairns with deviation of 26.700112336139156
+\noindent Top 5 Most Distinctive
+\begin{itemize}
+\item @DominicRaab with mean score of 65.47906067020797
+\item @GregClarkMP with mean score of 63.200871745203436
+\item @GavinWilliamson with mean score of 61.22737160006809
+\item @DamianHinds with mean score of 60.884884262395126
+\item @theresa_may with mean score of 60.47098641986674
+\end{itemize}
+\noindent Top 5 Least Distinctive
+\begin{itemize}
+\item @LiamFox with mean score of 51.031814676595076
+\item @BrandonLewis with mean score of 52.27332075081232
+\item @AlunCairns with mean score of 53.09583253537908
+\item @MattHancock with mean score of 54.64450393383778
+\item @DLidington with mean score of 55.383337879458594
+\end{itemize}
+\noindent Top 5 Most Varying
+\begin{itemize}
+\item @AlunCairns with standard deviation of 26.700112336139156
+\item @PennyMordaunt with standard deviation of 25.8749069685392
+\item @EstherMcVey1 with standard deviation of 25.447195887799346
+\item @BrandonLewis with standard deviation of 25.211142806739176
+\item @LiamFox with standard deviation of 24.747313034500408
+\end{itemize}
+\noindent Top 5 Least Varying
+\begin{itemize}
+\item @theresa_may with standard deviation of 17.406648209350728
+\item @JBrokenshire with standard deviation of 17.63701996805934
+\item @sajidjavid with standard deviation of 18.90177297131884
+\item @MattHancock with standard deviation of 20.07143314696841
+\item @Jeremy_Hunt with standard deviation of 20.470748114962532
+\end{itemize}

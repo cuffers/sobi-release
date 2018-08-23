@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='jquery.highlight-within-textarea.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.highlight-within-textarea.js') }}"></script>
+    <script src="{{ url_for('static', filename='sobi.js') }}"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="container" style="display: flex;">
+        <h1>SOBI</h1>
+        <span>Stand out or blend in.</span>
+        <form action="" id="text-to-analyse" onsubmit="generateReport();return false">
+            <div id="mode">
+                <input name="mode" type="radio" value="converge" id="converge" checked>
+                <label for="converge">Converge</label>
+                <input name="mode" type="radio" value="diverge" id="diverge">
+                <label for="diverge">Diverge</label>
+            </div>
+            <div class="hwt-container">
+                <textarea class="hwt-input hwt-content" form="text-to-analyse" name="text" rows="10" cols="30" placeholder="Enter text to analyse..."></textarea>
+            </div>
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div>
+            <h2 id="d-score"></h2>
+        </div>
+        <table id="results">
+        </table>
+    </div>
+</body>
+
+</html>
